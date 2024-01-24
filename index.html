@@ -1,0 +1,253 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=section, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <title>Banking System</title>
+<style>
+/* a{
+ 
+ text-decoration: none;
+ margin:2px;
+ }
+ li{
+  display:inline;
+  float: left;
+ }
+
+i{
+  display:inline-block;
+  position: relative;
+  left:75%;
+  top:1;
+  margin:1%;
+}
+section div nav ul li a{
+    text-decoration: none;
+    color:black;
+    
+    
+}
+.links{
+
+display: inline;
+font-weight: 700;
+text-align: center;
+margin-left: 40px;
+
+
+font-size: 2rem;
+}
+ul{
+    margin-top: 10px;
+}
+h1{
+    display: inline-block;
+    
+}
+.head{
+    border: 2px solid black;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e7d8d8;
+  /* border: 2px solid black; */
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  
+}
+
+li a:hover:not(.active) {
+  background-color:  rgba(255,124,87,.7);
+ 
+}
+.links{
+
+
+font-weight: 700px;
+font-size: 25px;
+
+}
+
+
+body
+   {
+    background-image: url("https://img.freepik.com/free-vector/banking-industry-concept-illustration_114360-13934.jpg?size=626&ext=jpg&ga=GA1.1.1974679238.1705985572&semt=ais");
+    background-size: 55%;
+    background-position: right bottom;
+   }
+.btn{
+    margin: 30px;
+    width:210px;
+    height:50px;
+    font-size:20px;
+    margin-left:390px;
+    background-color:rgb(156, 156, 156);
+
+   
+    
+   }
+   .bt{
+    margin: 30px;
+    width:210px;
+    height:50px;
+    font-size:20px;
+    background-color:rgb(156, 156, 156);
+   }
+
+   .btn:hover{
+   background-color:#3887d7;
+   }
+   .bt:hover{
+   background-color:#3887d7;
+   }
+
+   .container
+    {
+        background-color: #3887d7;
+        margin-top:150px;
+        margin-left: 150px;
+    }
+    input[type=submit]{
+        background:rgb(17, 73, 99);
+    }
+    #about{
+        background-image: url("images.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .about_container{
+        border: 2px solid black;
+        margin-top: 150px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 100%;
+        background-color: white;
+    }
+    </style>
+    
+</head>
+<body>
+    <!-- <section class="home">
+        
+    <div class="head">
+        <h1>Basic Banking System</h1>
+        <div class="content">
+         
+            <nav> 
+                <ul>
+                    <li class="links"><a href="#about">Home</a> </li>
+                    <li class="links"><a href="customer.php">View customers</a></li>
+                    <li class="links"><a href="#about">About us</a> </li>
+                   
+                </ul>
+            </nav>
+        </div>
+        </div>
+        
+        
+    </section> -->
+
+
+    <section>
+
+        <ul>
+            <li class="links"><a href="customer.php">View customers</a></li>
+            <li class="links"><a href="#about">About us</a> </li>
+            <li class="links"><a href="#about">Home</a> </li>
+    
+            
+            <h1 style="width: 50%; margin-left: auto; margin-right: auto; margin-top: 15px; "><strong>Banking System</strong></h1>
+            <img  style="mix-blend-mode: multiply; height: 73px;
+            margin-top: -68px; 
+            margin-left: 35;" src="https://img.freepik.com/premium-vector/bank-icon-logo-vector-design-template_827767-1004.jpg" alt="">
+        </ul>
+          
+
+    </section>
+    <div class="container">
+       New user? Register here
+        <form method="post" action="register.php" enctype="multipart/form-data">
+            <div class="formgrup">
+                <input type="text" name="email1" placeholder="Enter email address" required>
+            </div>
+            <div class="formgrup">
+               <input type="text" name="name" placeholder="Enter name" required>
+           </div>
+            <div class="formgrup">
+               <input type="text" name="accno" placeholder="Enter account number" required>
+           </div>
+           <div class="formgrup">
+               <input type="text" name="password1" placeholder="Create password" required>
+           </div>
+           <div class="formgrup">
+               <input type="text" name="password2" placeholder="confirm password">
+           </div>
+           <div class="formgrup">
+           <input type="submit" name="submit" value="submit">
+           </div>
+        </form>
+     </div>
+     <div id="about"class="about_container">
+       
+        
+        <div class="about_content">
+            <div><h1 align="center" style="margin-bottom: 4%; font-size:250%;font-family:'palatino',serif; ">About Us</h1></div>
+            <div align="center" style=" font-size:100%;">
+                <p style="text-align: justify;">
+                Welcome to FinancialSolutions Bank, where innovation meets trust to provide you with a seamless and secure banking experience. At FinancialSolutions, we understand that your financial journey is unique, and we are committed to offering personalized solutions to meet your needs.
+
+                Our bank system is designed with cutting-edge technology to ensure efficiency, convenience, and robust security. Whether you're managing your day-to-day transactions, planning for the future, or seeking expert financial advice, FinancialSolutions is here to support you every step of the way.<br>
+                <br>
+                <strong>Key Features:</strong><br><br>
+                
+               <strong> Digital Banking Excellence:</strong> Our user-friendly online and mobile banking platforms empower you to manage your accounts, transfer funds, pay bills, and access a range of financial services with ease. Experience the convenience of banking from the comfort of your home or on the go. <br>
+                
+                <strong>Personalized Financial Planning:</strong> We believe in understanding your unique financial goals. Our team of experienced professionals is dedicated to providing personalized advice and solutions to help you achieve your aspirations. From savings plans to investment strategies, we're here to guide you towards financial success. <br>
+                
+                <strong>Secure Transactions: </strong>Your security is our top priority. Our bank system employs state-of-the-art encryption and security measures to safeguard your financial information. Rest assured that your transactions are protected, allowing you to bank with confidence. <br>
+                
+                <strong>Innovative Products and Services:</strong> Stay ahead with our innovative range of banking products and services. From flexible checking and savings accounts to tailored loan options, we strive to offer solutions that adapt to your evolving financial needs. 
+                <br>
+                
+                <strong>Community Engagement:</strong> FinancialSolutions is not just a bank; we are an integral part of the communities we serve. Through various community outreach programs and initiatives, we contribute to the well-being and growth of the areas we call home.
+                
+                Join FinancialSolutions Bank today and experience banking the way it should be - a blend of modern convenience and timeless trust. Your financial success is our mission, and we look forward to being your trusted partner on your journey to prosperity.
+                
+                
+                
+            </p>
+                
+                
+                
+                
+        
+            </div>
+          
+          
+       </div>
+   </div>
+
+   
+   
+</body>
+</html>
